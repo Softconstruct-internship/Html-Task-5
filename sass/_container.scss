@@ -1,0 +1,16 @@
+.main_container {
+    background-color: $main_background-color;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    color: $second_type_caller;
+    h1 {
+       padding: 30px;
+       font-size: $medium_font_size;
+      
+    }
+    p{
+        padding: 40px;
+        width: 500px;
+    }
+  
+}
