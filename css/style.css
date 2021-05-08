@@ -14,25 +14,42 @@
     letter-spacing: 4px; }
     .main-header-container .header-container h1 {
       font-size: 64px !important;
-      color: #fff !important;
+      color: #fff;
       font-weight: 400; }
     .main-header-container .header-container h2 {
-      color: #fff !important;
+      color: #fff;
       padding: 15px;
       font-weight: 100;
       font-size: 30px; }
 
 .main_container {
+  font-family: "Raleway", sans-serif;
   background-color: #ffdddd !important;
   text-align: center;
   padding: 40px 0 40px 0;
-  color: #757575 !important; }
-  .main_container h1 {
-    padding: 30px;
-    font-size: 36px; }
-  .main_container p {
-    padding: 40px;
-    width: 500px; }
+  color: #757575 !important;
+  width: 100%; }
+  .main_container div {
+    display: inline-block;
+    max-width: 980px; }
+    .main_container div h1 {
+      padding: 30px;
+      font-size: 36px; }
+    .main_container div p {
+      padding: 40px;
+      line-height: 2;
+      font-size: 15px; }
+    .main_container div button {
+      color: #fff;
+      background-color: #000;
+      font-size: 18px !important;
+      padding: 20px 30px !important;
+      border-radius: 4px;
+      cursor: pointer;
+      border: none; }
+      .main_container div button:hover {
+        background-color: #9b9999;
+        color: black; }
 
 * {
   margin: 0;
