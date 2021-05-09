@@ -1,0 +1,30 @@
+.main-nav-container {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    opacity: 0.75;
+    width: 100%;
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 20px 140px 20px;
+            &:hover {
+                background-color: rgb(236, 230, 230);
+                font-weight: 500;
+            }
+        }
+        .rsvp {
+            &:hover {
+                background-color: black;
+                color: white;
+                font-weight: 500;
+            }
+          
+        }
+    }
+}
+

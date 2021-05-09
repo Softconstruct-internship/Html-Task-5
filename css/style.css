@@ -122,13 +122,13 @@
       font-weight: 400;
       letter-spacing: 4px; }
     .main-rspv-container div small {
+      display: block;
       padding: 30px;
       font-size: 18px !important;
       letter-spacing: 2px !important; }
     .main-rspv-container div button {
       color: #fff;
       background-color: #f44336;
-      opacity: 0.6;
       font-size: 25px;
       padding: 20px 60px !important;
       border-radius: 4px;
@@ -151,6 +151,28 @@
     color: white; }
     .footer p a:hover {
       color: green; }
+
+.main-nav-container {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  opacity: 0.75;
+  width: 100%; }
+  .main-nav-container div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .main-nav-container div a {
+      text-decoration: none;
+      color: black;
+      padding: 20px 140px 20px; }
+      .main-nav-container div a:hover {
+        background-color: #ece6e6;
+        font-weight: 500; }
+    .main-nav-container div .rsvp:hover {
+      background-color: black;
+      color: white;
+      font-weight: 500; }
 
 * {
   margin: 0;

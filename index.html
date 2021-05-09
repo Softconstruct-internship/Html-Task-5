@@ -10,16 +10,17 @@
 </head>
 
 <body>
-    <section class="main-header-container">
+    <section id="home" class="main-header-container">
         <div class="header-container">
             <h1>Jane & John</h1>
             <h2>Are getting married</h2>
             <h2>17.07.2017</h2>
         </div>
     </section>
+   
     <section class="main_container">
         <div>
-            <h1>Jane & John</h1>
+            <h1 id="jane">Jane & John</h1>
             <img src="./assets/img/wedding_couple2.jpg" alt="">
             <p>You all know us. And we all know you.
                 We are getting married lorem ipsum
@@ -50,7 +51,7 @@
             <h2>Of course..</h2>
         </div>
     </section>
-    <section class="main-wedding-container">
+    <section id="wedding" class="main-wedding-container">
         <div>
             <h1>THE WEDDING</h1>
             <img src="./assets/img/wedding_location.jpg" alt="wedding">
@@ -68,16 +69,25 @@
             </div>
         </div>
     </section>
-    <section class="main-rspv-container">
-<div>
-    <h2>HOPE YOU CAN MAKE IT!</h2>
-    <small>Kindly Respond By January, 2017</small>
-    <button>RSVP</button>
-</div>
+    <section id="rsvp" class="main-rspv-container">
+        <div>
+            <h2>HOPE YOU CAN MAKE IT!</h2>
+            <small>Kindly Respond By January, 2017</small>
+            <button>RSVP</button>
+        </div>
     </section>
+    <div class="main-nav-container">
+        <div>
+            <a href="#home">Home</a>
+            <a href="#jane">Jane & John</a>
+            <a href="#wedding">Wedding</a>
+            <a class="rsvp" href="#rsvp">RSVP</a>
+        </div>
+    </div>
     <footer class='footer'>
         <p>Powered by <a href="w3.css">w3.css</a></p>
     </footer>
+
 </body>
 
 </html>
