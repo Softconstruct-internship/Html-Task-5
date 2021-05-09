@@ -24,7 +24,7 @@
 
 .main_container {
   font-family: "Raleway", sans-serif;
-  background-color: #ffdddd !important;
+  background-color: #f2e1e1;
   text-align: center;
   padding: 40px 0 40px 0;
   color: #757575 !important;
@@ -76,6 +76,33 @@
       padding: 15px;
       font-weight: 100;
       font-size: 30px; }
+
+.main-wedding-container {
+  font-family: "Raleway", sans-serif;
+  background-color: #f2e1e1;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  color: #757575 !important;
+  width: 100%; }
+  .main-wedding-container div {
+    display: inline-block;
+    max-width: 980px; }
+    .main-wedding-container div h1 {
+      padding: 30px;
+      font-size: 36px; }
+
+.when-and-where-container {
+  color: black !important;
+  padding-top: 80px;
+  width: 100%; }
+  .when-and-where-container div {
+    width: 48%;
+    line-height: 2; }
+    .when-and-where-container div h2 {
+      font-weight: 100;
+      font-size: 40px; }
+    .when-and-where-container div p {
+      padding: 10px; }
 
 * {
   margin: 0;

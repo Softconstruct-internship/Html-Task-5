@@ -1,0 +1,32 @@
+.main-wedding-container {
+    font-family: $font-family;
+    background-color: $main_background-color;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    color: $second_type_caller;
+    width: 100%;
+    div {
+        display: inline-block;
+        max-width: 980px;
+        h1 {
+            padding: 30px;
+            font-size: $medium_font_size;
+        }
+    }
+}
+.when-and-where-container {
+    color: black !important;
+    padding-top: 80px;
+    width: 100%;
+    div {
+        width: 48%;
+        line-height: 2;
+        h2 {
+            font-weight: 100;
+            font-size: 40px;
+        }
+        p {
+            padding: 10px;
+        }
+    }
+}
